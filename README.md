@@ -4,7 +4,8 @@ _Primera aproximación al uso de rutas y rutas hijas, Lazyload, Interfaces y tip
 
 ## Pre-requisitos:
 
-Esta aplicación requiere Angular CLI v12 y Node v16 para su correcta ejecucíón
+Esta aplicación requiere Angular CLI v12 y Node v16 para su correcta ejecucíón.
+Además, mediante el uso de json-server, levantar el servicio 05-heroes-server.
 
 ## Ejecución
 
