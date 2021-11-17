@@ -1,0 +1,15 @@
+
+<h1>Error 404!</h1>
+<h2>Elija una de las siguientes opciones:</h2>
+<hr>
+
+<ul class="list-group">
+    <li class="list-group-item"
+        *ngFor="let menu of templateMenu"
+        [routerLink]="[ menu.ruta]"
+        routerLinkActive="active">
+        {{ menu.texto }}
+    </li>
+</ul>
+
+
